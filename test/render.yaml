@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: api-diabete
+    env: python
+    buildCommand: ""
+    startCommand: python test/main.py
+    plan: free
